@@ -1,0 +1,2 @@
+// Run by specific testcase by markers
+pytest -s -v -m "regression" --html=./Reports/report.html testCases/ --browser chrome
